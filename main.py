@@ -520,4 +520,5 @@ if __name__ == "__main__":
     except Exception as e:
         # 如果报错，提供一个简单的弹窗
         import tkinter.messagebox
+
         tkinter.messagebox.showerror("启动失败", str(e))
